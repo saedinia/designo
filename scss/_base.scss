@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  @apply m-0 p-0 box-border;
+}
+
+img,
+svg {
+  @apply max-w-full block;
+}
+
+h1 {
+  @apply font-medium text-5xl leading-[48px];
+}
+
+h2 {
+  @apply font-medium text-[40px] leading-[48px] tracking-[2px];
+}
+
+h3 {
+  @apply font-medium text-xl leading-[26px] tracking-[5px];
+}
+
+body {
+  @apply font-jost text-base leading-[26px];
+
+  .wrapper {
+    @apply m-auto max-w-[1440px] sm:px-10;
+  }
+}
+
+.btn {
+  @apply text-white bg-primary hover:bg-secondary transition-colors rounded-lg px-8 py-4 uppercase;
+
+  &.btn-dark {
+    @apply text-black bg-white hover:text-white hover:bg-secondary;
+  }
+}

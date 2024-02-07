@@ -1,0 +1,25 @@
+header {
+  @apply flex justify-between items-center py-10 px-6 sm:px-0 sm:py-16;
+
+  .logo {
+    @apply h-8 w-auto;
+  }
+
+  nav {
+    @apply flex items-center;
+
+    ul {
+      @apply hidden sm:flex items-center gap-10;
+
+      li {
+        a {
+          @apply uppercase text-lg;
+        }
+      }
+    }
+
+    .icon-hamburger {
+      @apply sm:hidden;
+    }
+  }
+}
