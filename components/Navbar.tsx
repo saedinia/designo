@@ -11,9 +11,9 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        {navbar.map((item) => (
+        {navbar.map((item, index) => (
           <li>
-            <Link key={item.href} href={item.href}>
+            <Link key={index} href={item.href}>
               {item.label}
             </Link>
           </li>

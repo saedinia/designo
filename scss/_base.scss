@@ -4,21 +4,16 @@
   @apply m-0 p-0 box-border;
 }
 
-img,
-svg {
-  @apply max-w-full block;
-}
-
 h1 {
   @apply font-medium text-5xl leading-[48px];
 }
 
 h2 {
-  @apply font-medium text-[40px] leading-[48px] tracking-[2px];
+  @apply font-medium text-[40px] leading-[48px];
 }
 
 h3 {
-  @apply font-medium text-xl leading-[26px] tracking-[5px];
+  @apply font-medium text-xl leading-[26px];
 }
 
 body {

@@ -1,8 +1,26 @@
+import Image from "next/image";
 import React from "react";
+import heroImage from "@/public/images/home/image-hero-phone.png";
 
 const Home = () => {
   return (
     <main>
+      <div className="hero">
+        <div className="hero-container">
+          <div className="hero-content">
+            <h1>Award-winning custom designs and digital branding solutions</h1>
+            <p>
+              With over 10 years in the industry, we are experienced in creating
+              fully responsive websites, app design, and engaging brand
+              experiences. Find out more about our services.
+            </p>
+            <button className="btn btn-dark">Learn more</button>
+          </div>
+          <div className="hero-image">
+            <Image src={heroImage} alt="" />
+          </div>
+        </div>
+      </div>
       {/* <h1>Hello World!</h1>
       <h2>Hello World!</h2>
       <h3>Hello World!</h3>
