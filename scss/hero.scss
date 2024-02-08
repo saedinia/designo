@@ -1,5 +1,5 @@
 .hero {
-  @apply bg-primary text-white text-center md:text-left pt-20 sm:pt-16 md:pt-0 max-h-[840px] sm:max-h-[1040px] md:max-h-none overflow-hidden bg-[url('./../public/svg/bg-pattern-hero-home.svg')] bg-no-repeat bg-left sm:bg-[150%] md:bg-right md:bg-contain sm:rounded-xl;
+  @apply bg-primary text-white text-center md:text-left pt-20 sm:pt-16 md:pt-0 max-h-[840px] overflow-hidden bg-[url('./../public/svg/bg-pattern-hero-home.svg')] bg-no-repeat bg-left sm:bg-[150%] md:bg-right md:bg-contain sm:rounded-xl;
 
   .hero-container {
     @apply grid md:grid-cols-2 items-center;
@@ -10,7 +10,7 @@
 
     .hero-image {
       img {
-        @apply scale-150 mt-10 m-auto md:translate-y-32;
+        @apply scale-150 md:scale-100 mt-10 m-auto;
       }
     }
   }
